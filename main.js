@@ -61,7 +61,7 @@ async function loadWeather() {
     }
 
     weatherContainerHtml += `
-  <div class="weather-card justify-items-center flex items-center pt-2 mx-10  bg-white w-60 h-72 rounded-lg text-black shadow-md">
+  <div class="weather-card justify-items-center flex items-center pt-2 mx-10  bg-white w-60 h-72 rounded-lg hover:scale-110 scroll-smooth  text-black shadow-md duration-100">
   
     <div class="flex flex-col justify-items-center items-center pt-5 p-1">
       <img src=${imaGe} class="w-20">
