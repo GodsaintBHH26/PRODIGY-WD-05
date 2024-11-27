@@ -65,7 +65,7 @@ async function loadWeather() {
   
     <div class="flex flex-col justify-items-center items-center pt-5 p-1">
       <img src=${imaGe} class="w-20">
-      <div class="flex items-center gap-1 mt-2"><h1 class="temperature text-lg">${data.temperature}</h1><img src="public/icons/temperature-c-svgrepo-com.svg" class="h-4 invert saturate-200"></div>
+      <div class="flex items-center gap-1 mt-2"><h1 class="temperature text-lg">${data.temperature}</h1><img src="/icons/temperature-c-svgrepo-com.svg" class="h-4 invert saturate-200"></div>
       <h1 class="city mt-5 text-xl font-medium">${data.name}</h1><h2>${data.weather}</h2>
   
       <div class="details text-sm ml-2 flex gap-5 mt-5">
